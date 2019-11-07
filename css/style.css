@@ -1,0 +1,89 @@
+/*    Font Family: Roberto Condensed
+      color schemes
+        British Racing Green    : #45a2d8   (buttons, icons, Links, Lines & background)
+        Steel grey              : #41464b   (Headings)
+        Blue Bayoux             : 64707b    (Paragraphs)
+        Black                   : #000000   
+        White                   : #ffffff   (Text with Black Background)
+
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+
+/*=======================================
+            Home
+======================================*/
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url(../img/bg-home.jpg);
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#home-heading h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+
+}
+
+#home-btn {}
+
+/*======================================================================
+                CSS General Parallax Class
+======================================================================*/
+.bg-parallex {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*=================================================================
+                    Button Genral Class
+==================================================================*/
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
