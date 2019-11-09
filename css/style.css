@@ -17,7 +17,14 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1 {
+p {
+    color: #41464b;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h3 {
+    color: #41464b
     text-transform: uppercase;
 }
 
@@ -46,7 +53,7 @@ h1 {
     text-align: center;
 }
 
-#home-heading h1 {
+#home-heading h3 {
     color: #fff;
     font-size: 40px;
     font-weight: 700;
@@ -77,6 +84,7 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
 }
+
 .btn-white {
     border-color: #fff;
     color: #fff;
@@ -86,4 +94,82 @@ h1 {
 btn-white:focus {
     background-color: #fff;
     color: #41464b;
+}
+
+/*======================================================================
+            Animate CSS
+=======================================================================*/
+#home-cover,
+#home-heading,
+#home-btn {
+    animation-duration: .5s;
+}
+
+#home-cover {
+    animation-delay: .1s;
+}
+
+#home-heading {
+    animation-delay: .5s;
+}
+
+#home-btn {
+    animation-delay: 1s;
+}
+
+/*======================================================================
+                Content (Generic)
+======================================================================*/
+.content-box {
+    padding: 60px 0 60px 0;
+}
+
+.content-box-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.content-title-headline {
+    width: 30px;
+    height: 3px;
+    background-color: #45a2d8;
+    margin: 0 auto 30px auto;
+
+}
+
+/*======================================================================
+                Service (Generic)
+======================================================================*/
+
+.service-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item-icon i {
+    color: #45a2d8;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+    color: #fff;
+    background-color: #45a2d8;
+}
+
+.service-item-title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px p;
+}
+
+.service-item-description p {
+    margin: 10px;
 }
